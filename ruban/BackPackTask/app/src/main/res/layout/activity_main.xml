@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="konnov.commr.vk.backpacktask.MainActivity">
+
+    <EditText
+        android:id="@+id/backpackmassesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="массы через запятую"
+        android:inputType="number"
+        android:digits="0123456789,"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/backpackpricesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/backpackmassesEditText"
+        android:ems="10"
+        android:hint="стоимости через запятую"
+        android:inputType="number"
+        android:digits="0123456789,"/>
+
+    <EditText
+        android:id="@+id/fixedmassEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/backpackpricesEditText"
+        android:ems="10"
+        android:hint="фиксированная масса"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calculate_buttton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fixedmassEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Посчитать"
+        android:onClick="calculateButtonClicked"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/fixedmassEditText"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/outputTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/fixedmassEditText"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

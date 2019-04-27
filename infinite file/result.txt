@@ -1,0 +1,27 @@
+There were 16028399 letters 'a' by 650.649 seconds.
+16028399 / 650.649 = 24634.478805
+
+There were 43534 letters 'a' by 1.788 seconds.
+43534 / 1.788 = 24347.874720
+
+There were 75737 letters 'a' by 3.179 seconds.
+75737 / 3.179 = 23824.158540
+
+There were 9405 letters 'a' by 0.305 seconds.
+9405 / 0.305 = 30836.065574
+
+There were 15910 letters 'a' by 0.505 seconds.
+15910 / 0.505 = 31504.950495
+
+There were 5856 letters 'a' by 0.198 seconds.
+5856 / 0.198 = 29575.757576
+
+There were 17696 letters 'a' by 0.563 seconds.
+17696 / 0.563 = 31431.616341
+
+There were 2858 letters 'a' by 0.101 seconds.
+2858 / 0.101 = 28297.029703
+
+There were 171 letters 'a' by 0.012 seconds.
+171 / 0.012 = 14250.000000
+
